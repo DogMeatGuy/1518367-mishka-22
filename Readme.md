@@ -1,7 +1,7 @@
 # Личный проект «Мишка» 
 
 * Студент: [Юрий Мурманцев](https://up.htmlacademy.ru/adaptive/22/user/1518367).
-* Наставник: `Неизвестно`.
+* Наставник: [Евгений Котов](https://htmlacademy.ru/profile/eugene_kotov).
 
 ---
 
