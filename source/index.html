@@ -11,7 +11,7 @@
     <section class="header">
       <h2 class="visually-hidden">Шапка сайта</h2>
       <div class="header__wrapper">
-        <a class="page-header__logo">
+        <a class="header__logo">
           <img src="./img/mishka-logo-mobile.svg" width="86" height="35" alt="Интернет магазин 'Мишка'">
         </a>
         <nav class="main-nav">
@@ -27,8 +27,10 @@
             </ul>
             <ul class="main-nav__list user-list">
               <li class="user-list__item">
-                <label class="user-list__item user__serch" for="user-serch">Поиск по сайту</label>
-                <input type="search" id="user-serch" name="user-serch" class="user-list__item user__serch-field">
+                <form action="URL" method="POST" autocomplete="off">
+                  <label class="user-list__item user__serch" for="user-serch">Поиск по сайту</label>
+                  <input type="search" id="user-serch" name="user-serch" class="user-list__item user__serch-field">
+                </form>
               </li>
               <li class="user-list__item">
                 <a href="#">Корзина: пока пуста</a>
@@ -45,11 +47,11 @@
       <h2 class="visually-hidden">Промо блок</h2>
       <div class="promo__wrapper">
         <h3 class="promo__header">Милые штуки ручной работы для дома</h3>
-        <div class="promo-button__wrapper">
-          <a class="promo-button" href="#">
+        <div class="promo-footer promo-footer__wrapper">
+          <a class="promo-footer__button" href="#">
             <span class="visually-hidden">Предметы интерьера</span>
           </a>
-          <a class="promo-button" href="#">
+          <a class="promo-footer__button" href="#">
             <span class="visually-hidden">Детские игрушки</span>
           </a>
         </div>
@@ -113,9 +115,9 @@
           <h4 class="user-review__name">Анастасия Красильникова</h4>
           <p class="user-review__contact">@misssssiskras</p>
         </div>
-        <div class="reviews-arrow reviews-arrow__wrapper">
-          <a class="reviews-arrow__button button--back"><span class="visually-hidden">Назад</span></a>
-          <a class="reviews-arrow__button button--forward"><span class="visually-hidden">Далее</span></a>
+        <div class="arrow-container arrow-container__wrapper">
+          <a class="arrow-container__button button--back"><span class="visually-hidden">Назад</span></a>
+          <a class="arrow-container__button button--forward"><span class="visually-hidden">Далее</span></a>
         </div>
         <a class="button reviews__button" href="#">Написать</a>
       </div>
@@ -148,10 +150,11 @@
       <a class="social__link--twitter" href="#"><img class="social__image--twitter" src="./img/twitter.svg"
           alt="Твиттер"></a>
     </div>
-    <div class="footer__developer">
-      <h3 class="footer__developer--header">Разработано</h3>
-      <img class="footer__developer--image" src="./img/htmlacademy.svg" alt="HTML Академия">
+    <div class="page-footer__developer developer__wrapper">
+      <h3 class="developer--header">Разработано</h3>
+      <img class="developer--image" src="./img/htmlacademy.svg" alt="HTML Академия">
     </div>
   </footer>
 </body>
+
 </html>
