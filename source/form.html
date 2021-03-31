@@ -42,6 +42,7 @@
     </section>
   </header>
   <main class="page__main">
+    <h1 class="visually-hidden">Интернет магазин мишка</h1>
     <section class="form-header">
       <h2 class="visually-hidden">Шапка страницы формы-заказа</h2>
       <div class="form-header__wrapper">
@@ -63,19 +64,35 @@
         </fieldset>
         <fieldset class="main-form__field color-field">
           <label class="color-field__header">Цвет</label>
-          <input class="visually-hidden" type="checkbox" id="checkbox-white" name="checkbox-white" value="white"
-            checked>
-          <label class="color-field__label" for="checkbox-white">Белый</label>
-          <input class="visually-hidden" type="checkbox" id="checkbox-gray" name="checkbox-gray" value="gray" checked>
-          <label class="color-field__label" for="checkbox-gray">Серый</label>
-          <input class="visually-hidden" type="checkbox" id="checkbox-tiffany" name="checkbox-tiffany" value="tiffany">
-          <label class="color-field__label" for="checkbox-tiffany">"Тиффани"</label>
-          <input class="visually-hidden" type="checkbox" id="checkbox-black" name="checkbox-black" value="black">
-          <label class="color-field__label" for="checkbox-black">Черный</label>
-          <input class="visually-hidden" type="checkbox" id="checkbox-pink" name="checkbox-pink" value="pink">
-          <label class="color-field__label" for="checkbox-pink">Розовый</label>
-          <input class="visually-hidden" type="checkbox" id="checkbox-orange" name="checkbox-orange" value="orange">
-          <label class="color-field__label" for="checkbox-orange">Ораньжевый</label>
+          <div class="color-field__wrapper">
+            <div class="checkbox-white__wrapper">
+              <input class="visually-hidden" type="checkbox" id="checkbox-white" name="checkbox-white" value="white"
+                checked>
+              <label class="color-field__label" for="checkbox-white">Белый</label>
+            </div>
+            <div class="checkbox-gray__wrapper">
+              <input class="visually-hidden" type="checkbox" id="checkbox-gray" name="checkbox-gray" value="gray"
+                checked>
+              <label class="color-field__label" for="checkbox-gray">Серый</label>
+            </div>
+            <div class="checkbox-tiffany__wrapper">
+              <input class="visually-hidden" type="checkbox" id="checkbox-tiffany" name="checkbox-tiffany"
+                value="tiffany">
+              <label class="color-field__label" for="checkbox-tiffany">"Тиффани"</label>
+            </div>
+            <div class="checkbox-black__wrapper">
+              <input class="visually-hidden" type="checkbox" id="checkbox-black" name="checkbox-black" value="black">
+              <label class="color-field__label" for="checkbox-black">Черный</label>
+            </div>
+            <div class="checkbox-pink__wrapper">
+              <input class="visually-hidden" type="checkbox" id="checkbox-pink" name="checkbox-pink" value="pink">
+              <label class="color-field__label" for="checkbox-pink">Розовый</label>
+            </div>
+            <div class="checkbox-orange__wrapper">
+              <input class="visually-hidden" type="checkbox" id="checkbox-orange" name="checkbox-orange" value="orange">
+              <label class="color-field__label" for="checkbox-orange">Ораньжевый</label>
+            </div>
+          </div>
         </fieldset>
         <fieldset class="main-form__field user-field">
           <label class="user-field__header">ФИО</label>
@@ -101,7 +118,8 @@
         </fieldset>
         <fieldset class="main-form__field text-field">
           <label class="text-field__header">Доп</label>
-          <textarea class="text-field__user-text" id="user-textarea" name="user-textarea" rows="5" placeholder="Опишите все ваши пожелания к заказу"></textarea>
+          <textarea class="text-field__user-text" id="user-textarea" name="user-textarea" rows="5"
+            placeholder="Опишите все ваши пожелания к заказу"></textarea>
         </fieldset>
         <p class="main-form__warning">*Поля обязательны для заполнения</p>
         <button class="main-form__submit" type="submit">Отправить заказ</button>
