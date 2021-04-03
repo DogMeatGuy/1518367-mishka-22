@@ -1,0 +1,48 @@
+.promo__wrapper {
+  width: 320px;
+  height: 489px;
+  background-image: url(../img/promo-background.png);
+  background-repeat: no-repeat;
+}
+
+.promo__header {
+  font-family: Opensans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 27px;
+  line-height: 30px;
+  text-align: center;
+  color: var(--black);
+}
+
+.promo-footer__wrapper {
+  width: 320px;
+  height: 206px;
+  margin: 0;
+}
+
+.promo-footer__button {
+  width: 320px;
+  height: 103px;
+  margin: 0;
+  padding-left: 30px;
+  padding-top: 24px;
+  padding-bottom: 31px;
+  padding-right: 160px
+}
+
+.interior-btn {
+  text-decoration: none;
+  color: var(--white);
+  background-color: var(--aquamarine);
+}
+
+.kids-toy-btn {
+  text-decoration: none;
+  color: var(--white);
+  background-color: var(aquamarine-darker);
+}
+
+.interior-btn__text {
+  width: 130px;
+}

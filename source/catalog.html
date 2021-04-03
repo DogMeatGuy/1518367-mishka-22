@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Мишка</title>
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body class="page__body">
@@ -120,6 +121,25 @@
       <img class="developer--image" src="./img/htmlacademy.svg" alt="HTML Академия">
     </div>
   </footer>
+  <div class="popup">
+    <form class="popup__form-choiser form-choiser">
+      <fieldset class="form-choiser__input-field input-field">
+        <div class="input-field__wrapper">
+          <input class="visually-hidden" type="radio" id="small" name="size-selection" value="small">
+          <label class="input-field__label" for="small">S</label>
+        </div>
+        <div class="input-field__wrapper">
+          <input class="visually-hidden" type="radio" id="medium" name="size-selection" value="medium">
+          <label class="input-field__label" for="medium">M</label>
+        </div>
+        <div class="input-field__wrapper">
+          <input class="visually-hidden" type="radio" id="large" name="size-selection" value="large">
+          <label class="input-field__label" for="large">L</label>
+        </div>
+      </fieldset>
+      <button class="form-choiser__submit-button" type="submit">Добавить</button>
+    </form>
+  </div>
 </body>
 
 </html>

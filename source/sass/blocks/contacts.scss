@@ -1,0 +1,43 @@
+.contacts__wrapper {
+  height: 818px;
+}
+
+.contacts__header {
+  font-family: Opensans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+  color: var(--black);
+}
+
+.contacts-list {
+  font-family: Opensans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+  color: var(dark-gray);
+}
+
+.contacts-email__link {
+  text-decoration-color: var(--aquamarine-line);
+}
+
+.contacts__map {
+  background-image: url(../img/map-plug.png);
+  width: 320px;
+  height: 454px;
+}
+
+.contacts__button {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: var(--dark-gray);
+  margin-left: 7px;
+  margin-right: 8px;
+}

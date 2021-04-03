@@ -1,1 +1,24 @@
 // Начните писать стили здесь
+@import "fonts.scss";
+@import "variables.scss";
+@import "global.scss";
+
+//Blocks
+@import "blocks/catalog-body.scss";
+@import "blocks/catalog-header.scss";
+@import "blocks/contacts.scss";
+@import "blocks/feature.scss";
+@import "blocks/footer.scss";
+@import "blocks/form-body.scss";
+@import "blocks/form-header.scss";
+@import "blocks/header.scss";
+@import "blocks/manufacturing-process.scss";
+@import "blocks/productOfTheWeek.scss";
+@import "blocks/promo.scss";
+@import "blocks/reviews.scss";
+@import "blocks/buttons.scss";
+@import "blocks/about.scss";
+@import "blocks/popup.scss";
+
+
+

@@ -1,0 +1,64 @@
+.popup {
+  width: 320px;
+  height: 366px;
+}
+
+.popup__header {
+  font-family: Opensans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.popup__description{
+  font-family: Opensans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.form-choiser__input-field {
+  border:none;
+  background-image:none;
+  background-color:transparent;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+.input-field__wrapper {
+  width: 82px;
+  height: 52px;
+  border: 2px solid var(--border-popup);
+  box-sizing: border-box;
+}
+
+.input-field__label {
+  font-family: Opensans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 16px;
+}
+
+.form-choiser__submit-button {
+  width: 260px;
+  height: 52px;
+  color: var(--aquamarine);
+  border: none;
+}
+
+.submit-button__text {
+  font-family: Opensans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 16px;
+  color: var(--white);
+  text-transform: uppercase;
+}
