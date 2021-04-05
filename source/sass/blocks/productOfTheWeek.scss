@@ -1,0 +1,67 @@
+.product-of-the-week__wrapper {
+  width: 320px;
+  height: 792px;
+}
+
+.product-of-the-week__header {
+  font-family: Opensans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  color: var(--black);
+}
+
+.product-of-the-week__promo {
+  font-family: Opensans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 20px;
+  color: var(--aquamarine);
+  text-transform: uppercase;
+}
+
+.product-description__wrapper {
+  height: 212px;
+}
+
+.product-description__text {
+  font-family: Opensans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  color: var(--dark-gray);
+}
+
+.product-description__list {
+  font-family: Opensans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+  color: var(--dark-gray);
+}
+
+.product-description__price {
+  font-family: Opensans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 24px;
+  color: var(--dark-gray);
+  text-align: center;
+}
+
+.product-description__button {
+  font-family: Opensans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-left: 40px;
+  margin-right: 40px;
+}

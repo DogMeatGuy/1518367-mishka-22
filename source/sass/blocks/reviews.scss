@@ -1,0 +1,56 @@
+.reviews__header {
+  font-family: Opensans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  color: var(--black);
+}
+
+.reviews__text {
+  font-family: Opensans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 30px;
+  color: var(--dark-gray);
+}
+
+.user-review__name {
+  font-family: Opensans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 30px;
+}
+
+.user-review__contact {
+  font-family: Opensans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.arrow-container__wrapper {
+  width: 260px;
+  height: 52px;
+  border: 1px solid #ECECEC;
+}
+
+.arrow-container__button {
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+
+.reviews__button {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: var(--dark-gray);
+  margin-left: 36px;
+  margin-right: 35px;
+}

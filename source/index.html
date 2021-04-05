@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Мишка</title>
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body class="page__body">
@@ -19,21 +20,21 @@
           <div class="main-nav__wrapper">
             <ul class="main-nav__list site-list">
               <li class="site-list__item">
-                <a href="#">Каталог товаров</a>
+                <a class="site-list__link" href="#">Каталог товаров</a>
               </li>
               <li class="site-list__item">
-                <a href="#">Вязание на заказ</a>
+                <a class="site-list__link" href="#">Вязание на заказ</a>
               </li>
             </ul>
             <ul class="main-nav__list user-list">
               <li class="user-list__item">
                 <form action="URL" method="POST" autocomplete="off">
-                  <label class="user-list__item user__serch" for="user-serch">Поиск по сайту</label>
-                  <input type="search" id="user-serch" name="user-serch" class="user-list__item user__serch-field">
+                  <label class="user-serch" for="user-serch">Поиск по сайту</label>
+                  <input class="user-serch--field" type="search" id="user-serch" name="user-serch">
                 </form>
               </li>
               <li class="user-list__item">
-                <a href="#">Корзина: пока пуста</a>
+                <a class="user-list__link" href="#">Корзина: пока пуста</a>
               </li>
             </ul>
           </div>
@@ -48,11 +49,11 @@
       <div class="promo__wrapper">
         <h3 class="promo__header">Милые штуки ручной работы для дома</h3>
         <div class="promo-footer promo-footer__wrapper">
-          <a class="promo-footer__button" href="#">
-            <span class="visually-hidden">Предметы интерьера</span>
+          <a class="promo-footer__button interior-btn" href="#">
+            <span class="interior-btn__text">Предметы интерьера</span>
           </a>
-          <a class="promo-footer__button" href="#">
-            <span class="visually-hidden">Детские игрушки</span>
+          <a class="promo-footer__button kids-toy-btn" href="#">
+            <span class="kids-toy-btn__text">Детские игрушки</span>
           </a>
         </div>
       </div>
@@ -76,54 +77,58 @@
           <img class="product-of-the-week__image" src="./img/product-of-the-week__image__mobile.png" width="260"
             height="315" alt="Вязаные корзинки">
           <p class="product-description__price">Цена: 990 руб.</p>
-          <a class="button product-description__button" href="#">Заказать</a>
+          <a class="button" href="#"><span class="product-description__button">Заказать</span></a>
         </div>
       </div>
     </section>
-    <section class="feature">
-      <div class="feature__wrapper">
-        <h2 class="feature__header">Коротко о нас:</h2>
-        <ul class="feature__list">
-          <li class="feature__list list-item">
-            <p class="list-item--first">Экологически чистые материалы</p>
-          </li>
-          <li class="feature__list list-item">
-            <p class="list-item--second">Скандинавский стиль по российской цене</p>
-          </li>
-          <li class="feature__list list-item">
-            <p class="list-item--third">Увеличивает лайки на фотографиях</p>
-          </li>
-          <li class="feature__list list-item">
-            <p class="list-item--fourth">Связано вручную с любовью и умилением</p>
-          </li>
-          <li class="feature__list list-item">
-            <p class="list-item--fifth">Поддержка отечественного производителя</p>
-          </li>
-          <li class="feature__list list-item">
-            <p class="list-item--sixth">Поставляется в подарочной упаковке</p>
-          </li>
-        </ul>
-      </div>
-    </section>
-    <section class="reviews">
-      <div class="reviews__wrapper">
-        <h2 class="reviews__header">Отзывы</h2>
-        <p class="reviews__text">Я молодая мама, но всё равно фотографии не набирали и близко такого количества лайков,
-          как у популярных инстамамочек. В отчаянии, я накупила аксессуаров и игрушек в Мишке, и мои фотографии сразу
-          стали более стильными, а также набирают больше лайков!</p>
-        <div class="reviews__user user-review">
-          <h4 class="user-review__name">Анастасия Красильникова</h4>
-          <p class="user-review__contact">@misssssiskras</p>
+    <section class="about">
+      <h2 class="visually-hidden">О нас</h2>
+      <section class="feature">
+        <div class="feature__wrapper">
+          <h2 class="feature__header">Коротко о нас:</h2>
+          <ul class="feature__list">
+            <li class="feature__list list-item">
+              <p class="list-item--first">Экологически чистые материалы</p>
+            </li>
+            <li class="feature__list list-item">
+              <p class="list-item--second">Скандинавский стиль по российской цене</p>
+            </li>
+            <li class="feature__list list-item">
+              <p class="list-item--third">Увеличивает лайки на фотографиях</p>
+            </li>
+            <li class="feature__list list-item">
+              <p class="list-item--fourth">Связано вручную с любовью и умилением</p>
+            </li>
+            <li class="feature__list list-item">
+              <p class="list-item--fifth">Поддержка отечественного производителя</p>
+            </li>
+            <li class="feature__list list-item">
+              <p class="list-item--sixth">Поставляется в подарочной упаковке</p>
+            </li>
+          </ul>
         </div>
-        <div class="arrow-container arrow-container__wrapper">
-          <a class="arrow-container__button button--back"><span class="visually-hidden">Назад</span></a>
-          <a class="arrow-container__button button--forward"><span class="visually-hidden">Далее</span></a>
+      </section>
+      <section class="reviews">
+        <div class="reviews__wrapper">
+          <h2 class="reviews__header">Отзывы</h2>
+          <p class="reviews__text">Я молодая мама, но всё равно фотографии не набирали и близко такого количества
+            лайков,
+            как у популярных инстамамочек. В отчаянии, я накупила аксессуаров и игрушек в Мишке, и мои фотографии сразу
+            стали более стильными, а также набирают больше лайков!</p>
+          <div class="reviews__user user-review">
+            <h4 class="user-review__name">Анастасия Красильникова</h4>
+            <p class="user-review__contact">@misssssiskras</p>
+          </div>
+          <div class="arrow-container arrow-container__wrapper">
+            <a class="arrow-container__button button--back" href="#"><span class="visually-hidden">Назад</span></a>
+            <a class="arrow-container__button button--forward" href="#"><span class="visually-hidden">Далее</span></a>
+          </div>
+          <a class="button" href="#"><span class="reviews__button">Написать</span></a>
         </div>
-        <a class="button reviews__button" href="#">Написать</a>
-      </div>
+      </section>
     </section>
     <section class="contacts">
-      <h2 class="visually-hidden">Контакты</h2>
+      <h2 class="contacts__header">Контакты</h2>
       <div class="contacts__wrapper">
         <dl class="contacts-list">
           <dt class="contacts-list__item-term">e-mail:</dt>
@@ -132,8 +137,8 @@
           <dt class="contacts-list__item-term">адрес:</dt>
           <dd class="contacts-list__item-definition">г. Санкт-Петербург ул. Большая Конюшенная д. 19/8, офис 101</dd>
         </dl>
-        <div class="contacts__map map__wrapper"></div>
-        <a class="button contacts__button" href="#">Напишите нам</a>
+        <div class="contacts__map"></div>
+        <a class="button" href="#"><span class="contacts__button">Напишите нам</span></a>
       </div>
     </section>
   </main>
@@ -155,6 +160,27 @@
       <img class="developer--image" src="./img/htmlacademy.svg" alt="HTML Академия">
     </div>
   </footer>
+  <div class="popup">
+    <form class="popup__form-choiser form-choiser">
+      <h2 class="popup__header">Добавить в корзину</h2>
+      <p class="popup__description">Выберите размер:</p>
+      <fieldset class="form-choiser__input-field input-field">
+        <div class="input-field__wrapper">
+          <input class="visually-hidden" type="radio" id="small" name="size-selection" value="small" checked>
+          <label class="input-field__label" for="small">S</label>
+        </div>
+        <div class="input-field__wrapper">
+          <input class="visually-hidden" type="radio" id="medium" name="size-selection" value="medium">
+          <label class="input-field__label" for="medium">M</label>
+        </div>
+        <div class="input-field__wrapper">
+          <input class="visually-hidden" type="radio" id="large" name="size-selection" value="large">
+          <label class="input-field__label" for="large">L</label>
+        </div>
+      </fieldset>
+      <button class="form-choiser__submit-button submit-button" type="submit"><span class="submit-button__text">Добавить</span></button>
+    </form>
+  </div>
 </body>
 
 </html>
