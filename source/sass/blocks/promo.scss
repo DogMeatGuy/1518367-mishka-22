@@ -12,7 +12,7 @@
   font-size: 27px;
   line-height: 30px;
   text-align: center;
-  color: var(--black);
+  color: $black;
 }
 
 .promo-footer__wrapper {
@@ -33,14 +33,14 @@
 
 .interior-btn {
   text-decoration: none;
-  color: var(--white);
-  background-color: var(--aquamarine);
+  color: $white;
+  background-color: $aquamarine;
 }
 
 .kids-toy-btn {
   text-decoration: none;
-  color: var(--white);
-  background-color: var(aquamarine-darker);
+  color: $white;
+  background-color: $aquamarine-darker;
 }
 
 .interior-btn__text {

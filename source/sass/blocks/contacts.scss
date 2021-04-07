@@ -8,7 +8,7 @@
   font-weight: bold;
   font-size: 18px;
   line-height: 30px;
-  color: var(--black);
+  color: $black;
 }
 
 .contacts-list {
@@ -21,7 +21,7 @@
 }
 
 .contacts-email__link {
-  text-decoration-color: var(--aquamarine-line);
+  text-decoration-color: $aquamarine-line;
 }
 
 .contacts__map {
@@ -37,7 +37,7 @@
   font-size: 18px;
   line-height: 20px;
   text-transform: uppercase;
-  color: var(--dark-gray);
+  color: $dark-gray;
   margin-left: 7px;
   margin-right: 8px;
 }

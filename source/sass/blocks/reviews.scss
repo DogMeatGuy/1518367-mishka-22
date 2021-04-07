@@ -4,7 +4,7 @@
   font-weight: bold;
   font-size: 25px;
   line-height: 30px;
-  color: var(--black);
+  color: $black;
 }
 
 .reviews__text {
@@ -13,7 +13,7 @@
   font-weight: normal;
   font-size: 15px;
   line-height: 30px;
-  color: var(--dark-gray);
+  color: $dark-gray;
 }
 
 .user-review__name {
@@ -50,7 +50,7 @@
   font-size: 18px;
   line-height: 20px;
   text-transform: uppercase;
-  color: var(--dark-gray);
+  color: $dark-gray;
   margin-left: 36px;
   margin-right: 35px;
 }

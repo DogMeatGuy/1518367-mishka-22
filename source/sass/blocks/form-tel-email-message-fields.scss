@@ -1,0 +1,46 @@
+.telephone-field__header {
+  font-family: Opensans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: $aquamarine;
+}
+
+.telephone-field__telephone-input-field {
+  border: none;
+  border-bottom: solid 2px $black;
+}
+
+
+.email-field__header {
+  font-family: Opensans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: $aquamarine;
+}
+
+.email-field__email-input-field {
+  border: none;
+  border-bottom: solid 2px $black;
+}
+
+
+.text-field__header {
+  font-family: Opensans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: $aquamarine;
+}
+
+.text-field__user-text {
+border: 2px solid $dark-gray;
+resize: none;
+}
