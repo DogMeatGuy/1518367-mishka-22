@@ -12,7 +12,7 @@
     <section class="header">
       <h2 class="visually-hidden">Шапка сайта</h2>
       <div class="header__wrapper">
-        <a class="header__logo">
+        <a class="header__logo" href="./index.html">
           <img src="./img/mishka-logo-mobile.svg" width="86" height="35" alt="Интернет магазин 'Мишка'">
         </a>
         <nav class="main-nav">
@@ -20,21 +20,21 @@
           <div class="main-nav__wrapper">
             <ul class="main-nav__list site-list">
               <li class="site-list__item">
-                <a href="#">Каталог товаров</a>
+                <a class="site-list__link">Каталог товаров</a>
               </li>
               <li class="site-list__item">
-                <a href="#">Вязание на заказ</a>
+                <a class="site-list__link" href="./form.html">Вязание на заказ</a>
               </li>
             </ul>
             <ul class="main-nav__list user-list">
               <li class="user-list__item">
                 <form action="URL" method="POST" autocomplete="off">
-                  <label class="user-list__item user__serch" for="user-serch">Поиск по сайту</label>
-                  <input type="search" id="user-serch" name="user-serch" class="user-list__item user__serch-field">
+                  <label class="user-serch" for="user-serch">Поиск по сайту</label>
+                  <input class="user-serch--field" type="search" id="user-serch" name="user-serch">
                 </form>
               </li>
               <li class="user-list__item">
-                <a href="#">Корзина: пока пуста</a>
+                <a class="user-list__link" href="#">Корзина: пока пуста</a>
               </li>
             </ul>
           </div>
@@ -123,9 +123,11 @@
   </footer>
   <div class="popup">
     <form class="popup__form-choiser form-choiser">
+      <h2 class="popup__header">Добавить в корзину</h2>
+      <p class="popup__description">Выберите размер:</p>
       <fieldset class="form-choiser__input-field input-field">
         <div class="input-field__wrapper">
-          <input class="visually-hidden" type="radio" id="small" name="size-selection" value="small">
+          <input class="visually-hidden" type="radio" id="small" name="size-selection" value="small" checked>
           <label class="input-field__label" for="small">S</label>
         </div>
         <div class="input-field__wrapper">
@@ -137,7 +139,7 @@
           <label class="input-field__label" for="large">L</label>
         </div>
       </fieldset>
-      <button class="form-choiser__submit-button" type="submit">Добавить</button>
+      <button class="form-choiser__submit-button submit-button" type="submit"><span class="submit-button__text">Добавить</span></button>
     </form>
   </div>
 </body>

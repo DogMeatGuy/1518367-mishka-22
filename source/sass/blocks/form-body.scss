@@ -1,0 +1,26 @@
+.form-body {
+  width: 320px;
+}
+
+.main-form__field {
+  border:0 none;
+}
+
+.main-form__warning {
+  font-family: Opensans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: $dark-gray;
+}
+
+.main-form__submit {
+  font-family: Opensans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 16px;
+  color: $dark-gray;
+  background-color: $white;
+}

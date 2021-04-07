@@ -1,7 +1,7 @@
 .page-footer {
   width: 320px;
   height: 160px;
-  background-color: var(--background-gray);
+  background-color: $background-gray;
 }
 
 .developer--header {
@@ -10,5 +10,5 @@
   font-weight: bold;
   font-size: 19px;
   line-height: 18px;
-  color: var(black);
+  color: $black;
 }

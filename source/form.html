@@ -12,7 +12,7 @@
     <section class="header">
       <h2 class="visually-hidden">Шапка сайта</h2>
       <div class="header__wrapper">
-        <a class="header__logo">
+        <a class="header__logo" href="./index.html">
           <img src="./img/mishka-logo-mobile.svg" width="86" height="35" alt="Интернет магазин 'Мишка'">
         </a>
         <nav class="main-nav">
@@ -20,21 +20,21 @@
           <div class="main-nav__wrapper">
             <ul class="main-nav__list site-list">
               <li class="site-list__item">
-                <a href="#">Каталог товаров</a>
+                <a class="site-list__link" href="./catalog.html">Каталог товаров</a>
               </li>
               <li class="site-list__item">
-                <a href="#">Вязание на заказ</a>
+                <a class="site-list__link">Вязание на заказ</a>
               </li>
             </ul>
             <ul class="main-nav__list user-list">
               <li class="user-list__item">
                 <form action="URL" method="POST" autocomplete="off">
-                  <label class="user-list__item user__serch" for="user-serch">Поиск по сайту</label>
-                  <input type="search" id="user-serch" name="user-serch" class="user-list__item user__serch-field">
+                  <label class="user-serch" for="user-serch">Поиск по сайту</label>
+                  <input class="user-serch--field" type="search" id="user-serch" name="user-serch">
                 </form>
               </li>
               <li class="user-list__item">
-                <a href="#">Корзина: пока пуста</a>
+                <a class="user-list__link" href="#">Корзина: пока пуста</a>
               </li>
             </ul>
           </div>
@@ -97,15 +97,15 @@
         </fieldset>
         <fieldset class="main-form__field user-field">
           <label class="user-field__header">ФИО</label>
-          <input class="user-field__first-name" type="text" id="user-first-name" name="user-first-name"
+          <label class="user-field__label user__first-name--label" for="user-first-name">Имя:</label>
+          <input class="user-field__input user__first-name" type="text" id="user-first-name" name="user-first-name"
             placeholder="Введите ваше имя*" required>
-          <label class="user-field__first-name--label" for="user-first-name">Имя:</label>
-          <input class="user-field__family-name" type="text" id="user-family-name" name="user-family-name"
+          <label class="user-field__label user__family-name--label" for="user-family-name">Фамилия:</label>
+          <input class="user-field__input user__family-name" type="text" id="user-family-name" name="user-family-name"
             placeholder="Укажите фамилию*" required>
-          <label class="user-field__family-name--label" for="user-family-name">Фамилия:</label>
-          <input class="user-field__second-name" type="text" id="user-second-name" name="user-second-name"
+          <label class="user-field__label user__second-name--label">Отчество:</label>
+          <input class="user-field__input user__second-name" type="text" id="user-second-name" name="user-second-name"
             placeholder="Отчество, если желаете">
-          <label class="user-field__second-name--label">Отчество:</label>
         </fieldset>
         <fieldset class="main-form__field telephone-field">
           <label class="telephone-field__header">E-mail</label>
@@ -123,7 +123,7 @@
             placeholder="Опишите все ваши пожелания к заказу"></textarea>
         </fieldset>
         <p class="main-form__warning">*Поля обязательны для заполнения</p>
-        <button class="main-form__submit" type="submit">Отправить заказ</button>
+        <button class="button main-form__submit" type="submit">Отправить заказ</button>
       </form>
     </section>
   </main>

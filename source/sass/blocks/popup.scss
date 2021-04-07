@@ -34,7 +34,7 @@
 .input-field__wrapper {
   width: 82px;
   height: 52px;
-  border: 2px solid var(--border-popup);
+  border: 2px solid $border-popup;
   box-sizing: border-box;
 }
 
@@ -49,7 +49,7 @@
 .form-choiser__submit-button {
   width: 260px;
   height: 52px;
-  color: var(--aquamarine);
+  color: $aquamarine;
   border: none;
 }
 
@@ -59,6 +59,6 @@
   font-weight: bold;
   font-size: 17px;
   line-height: 16px;
-  color: var(--white);
+  color: $white;
   text-transform: uppercase;
 }
