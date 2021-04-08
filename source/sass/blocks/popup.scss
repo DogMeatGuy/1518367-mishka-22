@@ -4,7 +4,7 @@
 }
 
 .popup__header {
-  font-family: Opensans;
+  font-family: "Opensans", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 25px;
@@ -13,8 +13,8 @@
   text-transform: uppercase;
 }
 
-.popup__description{
-  font-family: Opensans;
+.popup__description {
+  font-family: "Opensans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
@@ -23,11 +23,11 @@
 }
 
 .form-choiser__input-field {
-  border:none;
-  background-image:none;
-  background-color:transparent;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
+  border: none;
+  background-image: none;
+  background-color: transparent;
+  // -webkit-box-shadow: none;
+  // -moz-box-shadow: none;
   box-shadow: none;
 }
 
@@ -39,7 +39,7 @@
 }
 
 .input-field__label {
-  font-family: Opensans;
+  font-family: "Opensans", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 17px;
@@ -49,12 +49,12 @@
 .form-choiser__submit-button {
   width: 260px;
   height: 52px;
-  color: $aquamarine;
+  background-color: $aquamarine;
   border: none;
 }
 
 .submit-button__text {
-  font-family: Opensans;
+  font-family: "Opensans", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 17px;

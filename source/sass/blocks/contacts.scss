@@ -3,7 +3,7 @@
 }
 
 .contacts__header {
-  font-family: Opensans;
+  font-family: "Opensans", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -12,7 +12,7 @@
 }
 
 .contacts-list {
-  font-family: Opensans;
+  font-family: "Opensans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -25,13 +25,13 @@
 }
 
 .contacts__map {
-  background-image: url(../img/map-plug.png);
+  background-image: url("../img/map-plug.png");
   width: 320px;
   height: 454px;
 }
 
 .contacts__button {
-  font-family: Open Sans;
+  font-family: "Opensans", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
