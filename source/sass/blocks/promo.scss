@@ -1,12 +1,12 @@
 .promo__wrapper {
   width: 320px;
   height: 489px;
-  background-image: url(../img/promo-background.png);
+  background-image: url("../img/promo-background.png");
   background-repeat: no-repeat;
 }
 
 .promo__header {
-  font-family: Opensans;
+  font-family: "Opensans", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 27px;
@@ -28,7 +28,7 @@
   padding-left: 30px;
   padding-top: 24px;
   padding-bottom: 31px;
-  padding-right: 160px
+  padding-right: 160px;
 }
 
 .interior-btn {

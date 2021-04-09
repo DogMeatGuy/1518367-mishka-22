@@ -1,0 +1,35 @@
+//какая то хренЪ
+.manufacturing-process__headline {
+  font-family: "Opensans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 24px;
+  color: $black;
+}
+
+.video-block {
+  width: 260px;
+  height: 160px;
+  background-image: url("../img/video-mobile.png");
+  background-repeat: no-repeat;
+}
+
+.manufacturing-process__description {
+  font-family: "Opensans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 24px;
+  color: $dark-gray;
+}
+
+.manufacturing-process__button {
+  font-family: "Opensans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: $dark-gray;
+}

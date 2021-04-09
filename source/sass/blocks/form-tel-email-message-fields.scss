@@ -1,5 +1,5 @@
 .telephone-field__header {
-  font-family: Opensans;
+  font-family: "Opensans", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 17px;
@@ -15,7 +15,7 @@
 
 
 .email-field__header {
-  font-family: Opensans;
+  font-family: "Opensans", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 17px;
@@ -31,7 +31,7 @@
 
 
 .text-field__header {
-  font-family: Opensans;
+  font-family: "Opensans", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 17px;
@@ -41,6 +41,6 @@
 }
 
 .text-field__user-text {
-border: 2px solid $dark-gray;
-resize: none;
+  border: 2px solid $dark-gray;
+  resize: none;
 }
