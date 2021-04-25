@@ -2,12 +2,12 @@
   width: 322px;
   height: 336px;
   border: 1px solid $border-popup-window;
-  box-shadow: 0px 5px 10px $popup-shadow;
+  box-shadow: 0 5px 10px $popup-shadow;
   padding: 0;
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   background-color: $white;
 }
 
@@ -112,7 +112,7 @@
 .input-field__label--small::before,
 .input-field__label--medium::before,
 .input-field__label--large::before {
-  content: '';
+  content: "";
   position: absolute;
   border: 2px solid $border-popup;
   box-sizing: border-box;

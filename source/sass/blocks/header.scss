@@ -11,10 +11,12 @@
   height: 35px;
   transition: all 0.2s ease-out;
 }
+
 .header__logo--active:hover,
 .header__logo--activeo:focus {
   opacity: 0.6;
 }
+
 .header__logo--active:active {
   opacity: 0.3;
 }
@@ -34,9 +36,9 @@
 }
 
 .main-nav__toggle::before {
-  content: '';
+  content: "";
   position: absolute;
-  left: 0px;
+  left: 0;
   top: 0;
   background-image: url("../img/burger-menu-opened.svg");
   background-repeat: no-repeat;
@@ -48,8 +50,6 @@
 .main-nav__toggle:focus {
   transform: rotate(180deg);
 }
-
-
 
 .main-nav__list {
   font-family: "Opensans", sans-serif;
@@ -117,7 +117,7 @@
 }
 
 .user-bascket__icon-container::before {
-  content: '';
+  content: "";
   position: absolute;
   left: -46px;
   top: 1px;
@@ -143,8 +143,6 @@
 
 .user-serch__button {
   position: relative;
-  -webkit-appearance: none;
-  -moz-appearance: none;
   appearance: none;
   border: none;
   border-radius: 0;
@@ -183,7 +181,7 @@
 }
 
 .user-serch__icon-container::before {
-  content: '';
+  content: "";
   position: absolute;
   left: -44px;
   top: 2px;

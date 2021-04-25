@@ -31,7 +31,7 @@
   height: 250px;
   padding-top: 15px;
   margin: 0;
- position: relative;
+  position: relative;
 }
 
 .promo-footer__button {
@@ -98,7 +98,7 @@
 }
 
 .kids-toy-btn__text::after {
-  content: '';
+  content: "";
   background-image: url("../img/promo-kid-img.svg");
   background-repeat: no-repeat;
   position: absolute;
@@ -111,7 +111,7 @@
 
 .kids-toy-btn:hover .kids-toy-btn__text::after,
 .kids-toy-btn:focus .kids-toy-btn__text::after {
-  content: '';
+  content: "";
   background-image: url("../img/promo-kid-hover.svg");
   background-repeat: no-repeat;
   position: absolute;
@@ -122,7 +122,7 @@
 }
 
 .kids-toy-btn:active .kids-toy-btn__text::after {
-  content: '';
+  content: "";
   background-image: url("../img/promo-kid-active.svg");
   background-repeat: no-repeat;
   position: absolute;
@@ -137,7 +137,7 @@
 }
 
 .interior-btn__text::after {
-  content: '';
+  content: "";
   background-image: url("../img/promo-int-img.svg");
   background-repeat: no-repeat;
   position: absolute;
@@ -147,9 +147,10 @@
   top: 0;
   transition: all 0.2 ease-out;
 }
+
 .interior-btn:hover .interior-btn__text::after,
 .interior-btn:focus .interior-btn__text::after {
-  content: '';
+  content: "";
   background-image: url("../img/promo-int-hover.svg");
   background-repeat: no-repeat;
   position: absolute;
@@ -160,7 +161,7 @@
 }
 
 .interior-btn:active .interior-btn__text::after {
-  content: '';
+  content: "";
   background-image: url("../img/promo-int-active.svg");
   background-repeat: no-repeat;
   position: absolute;

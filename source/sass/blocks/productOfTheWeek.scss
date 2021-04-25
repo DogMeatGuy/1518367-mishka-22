@@ -49,6 +49,7 @@
   color: $dark-gray;
   margin-top: 28px;
 }
+
 .product-description__item {
   width: 260px;
   height: 32px;
@@ -56,6 +57,7 @@
   border-bottom: 1px solid $border-header-menu;
   display: flex;
 }
+
 .product-description__term {
   width: 58px;
 }
@@ -95,11 +97,13 @@
   transition: all 0.2s ease-out;
 }
 
-.product-description__button:hover ,
+.product-description__button:hover,
 .product-description__button:focus {
   background-color: $dark-gray;
   color: $white;
 }
-.product-description__button:active .product-description__button--text {
+
+.product-description__button:active,
+.product-description__button--text {
   opacity: 0.3;
 }

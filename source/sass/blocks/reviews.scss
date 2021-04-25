@@ -79,7 +79,7 @@
 }
 
 .button--back::before {
-  content: '';
+  content: "";
   background-image: url("../img/small-arrow-left.svg");
   background-repeat: no-repeat;
   position: absolute;
@@ -91,7 +91,7 @@
 }
 
 .button--forward::before {
-  content: '';
+  content: "";
   background-image: url("../img/small-arrow-right.svg");
   background-repeat: no-repeat;
   position: absolute;

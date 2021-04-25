@@ -28,8 +28,9 @@
   height: 6px;
   width: 100%;
 }
+
 .zig-zag__item::before {
-  content: '';
+  content: "";
   background-image: url("../img/zigzag-line.svg");
   background-position: center;
   position: absolute;
