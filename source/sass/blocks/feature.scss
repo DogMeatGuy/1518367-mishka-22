@@ -1,9 +1,17 @@
+.feature__wrapper {
+  width: 320px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
 .feature__header {
   font-family: "Opensans", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 25px;
   line-height: 30px;
+  margin-top: 30px;
+  margin-bottom: 83px;
 }
 
 .feature__list {
@@ -14,4 +22,92 @@
   line-height: 20px;
   color: black;
   list-style: none;
+  padding-left: 0;
+}
+
+.list-item {
+  margin-bottom: 83px;
+}
+
+.list-item--first {
+  position: relative;
+}
+
+.list-item--first::before {
+  content: '';
+  background-image: url("../img/flower-icon.svg");
+  position: absolute;
+  top: -55px;
+  left: 8px;
+  width: 33px;
+  height: 38px;
+}
+
+.list-item--second {
+  position: relative;
+}
+
+.list-item--second::before {
+  content: '';
+  background-image: url("../img/money-icon.svg");
+  position: absolute;
+  top: -54px;
+  width: 47px;
+  height: 27px;
+}
+
+.list-item--third {
+  position: relative;
+}
+
+.list-item--third::before {
+  content: '';
+  background-image: url("../img/heart-icon.svg");
+  position: absolute;
+  top: -49px;
+  left: 7px;
+  width: 34px;
+  height: 27px;
+}
+
+.list-item--fourth {
+  position: relative;
+}
+
+.list-item--fourth::before {
+  content: '';
+  background-image: url("../img/cotton-ball-icon.svg");
+  position: absolute;
+  top: -52px;
+  left: 3px;
+  width: 35px;
+  height: 34px;
+}
+
+.list-item--fifth {
+  position: relative;
+}
+
+.list-item--fifth::before {
+  content: '';
+  background-image: url("../img/rocket-icon.svg");
+  position: absolute;
+  top: -51px;
+  left: -6px;
+  width: 55px;
+  height: 23px;
+}
+
+.list-item--sixth {
+  position: relative;
+}
+
+.list-item--sixth::before {
+  content: '';
+  background-image: url("../img/gift-icon.svg");
+  position: absolute;
+  top: -53px;
+  left: 3px;
+  width: 33px;
+  height: 32px;
 }

@@ -1,8 +1,15 @@
+.promo {
+  margin: 0;
+  padding: 0;
+}
+
 .promo__wrapper {
   width: 320px;
-  height: 489px;
+  height: 423px;
   background-image: url("../img/promo-background.png");
   background-repeat: no-repeat;
+  background-position: center top -19px;
+  padding-top: 71px;
 }
 
 .promo__header {
@@ -13,36 +20,152 @@
   line-height: 30px;
   text-align: center;
   color: $black;
+  margin-top: 0;
+  margin-bottom: 71px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .promo-footer__wrapper {
   width: 320px;
-  height: 206px;
+  height: 250px;
+  padding-top: 15px;
   margin: 0;
+ position: relative;
 }
 
 .promo-footer__button {
-  width: 320px;
-  height: 103px;
   margin: 0;
   padding-left: 30px;
   padding-top: 24px;
-  padding-bottom: 31px;
+  padding-bottom: 0;
   padding-right: 160px;
+  text-align: left;
+  font-family: "Opensans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 24px;
+  transition: all 0.2s ease-out;
 }
 
 .interior-btn {
   text-decoration: none;
   color: $white;
   background-color: $aquamarine;
+  position: absolute;
+  top: 49px;
+  height: 79px;
 }
 
 .kids-toy-btn {
   text-decoration: none;
   color: $white;
   background-color: $aquamarine-darker;
+  position: absolute;
+  top: 152px;
+  height: 79px;
+}
+
+.interior-btn:hover,
+.interior-btn:focus {
+  height: 84px;
+  top: 44px;
+  background-color: $main-aquamarine-hover;
+}
+
+.interior-btn:active {
+  top: 49px;
+  height: 79px;
+  background-color: $main-aquamarine-hover;
+}
+
+.kids-toy-btn:hover,
+.kids-toy-btn:focus {
+  height: 84px;
+  top: 147px;
+  background-color: $main-aquamarine-darker-hover;
+}
+
+.kids-toy-btn:active {
+  top: 152px;
+  height: 79px;
+  background-color: $main-aquamarine-darker-hover;
+}
+
+.kids-toy-btn__text {
+  position: relative;
+}
+
+.kids-toy-btn__text::after {
+  content: '';
+  background-image: url("../img/promo-kid-img.svg");
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: 203px;
+  top: -2px;
+  transition: all 0.2s ease-out;
+}
+
+.kids-toy-btn:hover .kids-toy-btn__text::after,
+.kids-toy-btn:focus .kids-toy-btn__text::after {
+  content: '';
+  background-image: url("../img/promo-kid-hover.svg");
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: 203px;
+  top: -2px;
+}
+
+.kids-toy-btn:active .kids-toy-btn__text::after {
+  content: '';
+  background-image: url("../img/promo-kid-active.svg");
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: 203px;
+  top: -2px;
 }
 
 .interior-btn__text {
-  width: 130px;
+  position: relative;
+}
+
+.interior-btn__text::after {
+  content: '';
+  background-image: url("../img/promo-int-img.svg");
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 40px;
+  height: 62px;
+  left: 214px;
+  top: 0;
+  transition: all 0.2 ease-out;
+}
+.interior-btn:hover .interior-btn__text::after,
+.interior-btn:focus .interior-btn__text::after {
+  content: '';
+  background-image: url("../img/promo-int-hover.svg");
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 40px;
+  height: 62px;
+  left: 214px;
+  top: 0;
+}
+
+.interior-btn:active .interior-btn__text::after {
+  content: '';
+  background-image: url("../img/promo-int-active.svg");
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 40px;
+  height: 62px;
+  left: 214px;
+  top: 0;
 }

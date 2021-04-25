@@ -2,6 +2,10 @@
   width: 320px;
   height: 160px;
   background-color: $gray-background;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
 }
 
 .developer--header {
@@ -11,4 +15,173 @@
   font-size: 19px;
   line-height: 18px;
   color: $black;
+  margin-right: 28px;
+}
+
+.developer--image {
+  width: 27px;
+  height: 34px;
+  position: relative;
+  top: 12px;
+
+}
+
+.developer--image::after {
+  content: '';
+  background-image: url("../img/htmlacademy.svg");
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 28px;
+  height: 34px;
+  transition: 0.2s ease-in-out;
+}
+
+.developer--image:hover::after,
+.developer--image:focus::after {
+  content: '';
+  background-image: url("../img/htmlacademy-hover.svg");
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 27px;
+  height: 34px;
+}
+
+.developer--image:active::after {
+ opacity: 0.3;
+}
+
+.social__wrapper {
+  display: flex;
+  justify-content: center;
+  padding-top: 23px;
+  align-items: center;
+  margin-bottom: 9px;
+}
+
+.social__link--facebook {
+  position: relative;
+  margin-left: 41px;
+  margin-right: 41px;
+  width: 15px;
+  height: 28px;
+}
+
+.social__link--facebook::after {
+  content: '';
+  background-image: url("../img/fb.svg");
+  position: absolute;
+  width: 15px;
+  height: 28px;
+  background-repeat: no-repeat;
+  transition: all 0.2s ease-out;
+}
+
+.social__link--facebook:hover::after,
+.social__link--facebook:focus::after {
+  content: '';
+  background-image: url("../img/fb-hover.svg");
+  position: absolute;
+  width: 15px;
+  height: 28px;
+  background-repeat: no-repeat;
+}
+
+.social__link--facebook:active::after {
+  content: '';
+  background-image: url("../img/fb-active.svg");
+  position: absolute;
+  width: 15px;
+  height: 28px;
+  background-repeat: no-repeat;
+}
+
+.social__link--insta {
+  position: relative;
+  width: 22px;
+  height: 21px;
+}
+
+.social__link--insta::after {
+  content: '';
+  background-image: url("../img/insta.svg");
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  background-repeat: no-repeat;
+  transition: all 0.2s ease-out;
+}
+
+.social__link--insta:hover::after,
+.social__link--insta:focus::after {
+  content: '';
+  background-image: url("../img/insta-hover.svg");
+  position: absolute;
+  width: 22px;
+  height: 21px;
+  background-repeat: no-repeat;
+}
+
+.social__link--insta:active::after {
+  content: '';
+  background-image: url("../img/insta-active.svg");
+  position: absolute;
+  width: 22px;
+  height: 21px;
+  background-repeat: no-repeat;
+}
+
+.social__link--twitter {
+  position: relative;
+  width: 23px;
+  height: 20px;
+}
+
+.social__link--twitter::after {
+  content: '';
+  background-image: url("../img/twitter.svg");
+  position: absolute;
+  width: 23px;
+  height: 20px;
+  background-repeat: no-repeat;
+  transition: all 0.2s ease-out;
+}
+
+.social__link--twitter:hover::after,
+.social__link--twitter:focus::after {
+  content: '';
+  background-image: url("../img/twitter-hover.svg");
+  position: absolute;
+  width: 23px;
+  height: 20px;
+  background-repeat: no-repeat;
+}
+
+.social__link--twitter:active::after {
+  content: '';
+  background-image: url("../img/twitter-active.svg");
+  position: absolute;
+  width: 23px;
+  height: 20px;
+  background-repeat: no-repeat;
+}
+
+.developer__wrapper {
+  display: flex;
+  justify-content: center;
+  padding-top: 12px;
+  position: relative;
+  top: -9px;
+}
+
+.footer-logo {
+display: none;
+}
+
+.footer-line {
+  width: 260px;
+  margin-top: 12px;
+  margin-bottom: 0;
+  height: 0;
+  color: $border-line-footer;
+  opacity: 0.1;
 }

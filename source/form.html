@@ -3,7 +3,9 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>HTML Academy: Мишка</title>
+  <link rel="icon" href="./img/favicon.png" type="image/png">
   <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -12,29 +14,41 @@
     <section class="header">
       <h2 class="visually-hidden">Шапка сайта</h2>
       <div class="header__wrapper">
-        <a class="header__logo" href="./index.html">
-          <img src="./img/mishka-logo-mobile.svg" width="86" height="35" alt="Интернет магазин 'Мишка'">
-        </a>
+        <div class="logo__wrapper">
+          <a class="header__logo header__logo--active" href="./index.html">
+            <img src="./img/mishka-logo-mobile.svg" width="86" height="35" alt="Интернет магазин 'Мишка'">
+          </a>
+        </div>
         <nav class="main-nav">
-          <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
+          <div class="toggle__wrapper">
+            <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть
+                меню</span></button>
+          </div>
           <div class="main-nav__wrapper">
             <ul class="main-nav__list site-list">
               <li class="site-list__item">
                 <a class="site-list__link" href="./catalog.html">Каталог товаров</a>
               </li>
               <li class="site-list__item">
-                <a class="site-list__link">Вязание на заказ</a>
+                <a class="site-list__link" href="./form.html">Вязание на заказ</a>
               </li>
             </ul>
             <ul class="main-nav__list user-list">
               <li class="user-list__item">
-                <form action="URL" method="POST" autocomplete="off">
-                  <label class="user-serch" for="user-serch">Поиск по сайту</label>
-                  <input class="user-serch--field" type="search" id="user-serch" name="user-serch">
-                </form>
+                <div class="user-serch__icon-container">
+                  <button class="user-serch__button" type="button"><span class="user-serch">Поиск по
+                      сайту</span></button>
+                </div>
+                <div class="user-serch-form__wrapper">
+                  <form action="URL" method="POST" autocomplete="off">
+                    <input class="user-serch--field" type="search" id="user-serch" name="user-serch">
+                  </form>
+                </div>
               </li>
-              <li class="user-list__item">
-                <a class="user-list__link" href="#">Корзина: пока пуста</a>
+              <li class="user-list__item user-bascket">
+                <div class="user-bascket__icon-container">
+                  <a class="user-list__link" href="#">Корзина: пока пуста</a>
+                </div>
               </li>
             </ul>
           </div>
@@ -129,20 +143,20 @@
   </main>
   <footer class="page-footer">
     <h2 class="visually-hidden">Подвал сайта</h2>
-    <a class="page-footer__logo">
+    <div class="footer-logo footer-logo__wrapper">
+    <a class="footer-logo__logo">
       <img src="./img/logo-footer.svg" width="102" height="34" alt="Интернет магазин 'Мишка'">
     </a>
+  </div>
     <div class="page-footer__social social__wrapper">
-      <a class="social__link--insta" href="#"><img class="social__image--insta" src="./img/insta.svg"
-          alt="Инстаграмм"></a>
-      <a class="social__link--facebook" href="#"><img class="social__image--facebook" src="./img/fb.svg"
-          alt="Фейсбук"></a>
-      <a class="social__link--twitter" href="#"><img class="social__image--twitter" src="./img/twitter.svg"
-          alt="Твиттер"></a>
+      <a class="social__link--insta" href="#" aria-label="Инстаграмм"></a>
+      <a class="social__link--facebook" href="#" aria-label="Фейсбук"></a>
+      <a class="social__link--twitter" href="#" aria-label="Твиттер"></a>
     </div>
+    <hr class="footer-line" noshade>
     <div class="page-footer__developer developer__wrapper">
       <h3 class="developer--header">Разработано</h3>
-      <img class="developer--image" src="./img/htmlacademy.svg" alt="HTML Академия">
+      <span class="developer--image">
     </div>
   </footer>
 </body>

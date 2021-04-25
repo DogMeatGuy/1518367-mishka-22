@@ -11,8 +11,28 @@
   overflow: hidden;
 }
 
+.page__main {
+  margin: 0;
+  padding: 0;
+}
+
 .page__body {
   width: 320px;
   margin: 0;
   padding: 0;
+}
+
+.zig-zag__item {
+  position: relative;
+  border: none;
+  height: 6px;
+  width: 100%;
+}
+.zig-zag__item::before {
+  content: '';
+  background-image: url("../img/zigzag-line.svg");
+  background-position: center;
+  position: absolute;
+  height: 6px;
+  width: 100%;
 }

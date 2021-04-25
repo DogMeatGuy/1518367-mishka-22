@@ -1,3 +1,9 @@
+.reviews__wrapper {
+  width: 320px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
 .reviews__header {
   font-family: "Opensans", sans-serif;
   font-style: normal;
@@ -5,6 +11,9 @@
   font-size: 25px;
   line-height: 30px;
   color: $black;
+  margin: 0;
+  position: relative;
+  top: -26px;
 }
 
 .reviews__text {
@@ -14,6 +23,13 @@
   font-size: 15px;
   line-height: 30px;
   color: $dark-gray;
+  width: 270px;
+  margin-top: -12px;
+}
+
+.user-review {
+  margin-top: 31px;
+  margin-bottom: 0;
 }
 
 .user-review__name {
@@ -30,27 +46,76 @@
   font-weight: normal;
   font-size: 17px;
   line-height: 24px;
+  margin-top: -20px;
 }
 
 .arrow-container__wrapper {
-  width: 260px;
-  height: 52px;
+  width: 258px;
+  height: 50px;
   border: 1px solid #ececec;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 32px;
 }
 
 .arrow-container__button {
   padding-top: 13px;
   padding-bottom: 13px;
+  position: relative;
+  width: 50px;
+  height: 26px;
 }
 
 .reviews__button {
-  font-family: "Opensans", sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 20px;
-  text-transform: uppercase;
-  color: $dark-gray;
-  margin-left: 36px;
-  margin-right: 35px;
+  position: relative;
+  top: 54px;
+  padding: 12px 78px 12px 78px;
+}
+
+.arrow-container__middle-stick {
+  width: 1px;
+  height: 52px;
+  background-color: $border-header-menu;
+}
+
+.button--back::before {
+  content: '';
+  background-image: url("../img/small-arrow-left.svg");
+  background-repeat: no-repeat;
+  position: absolute;
+  left: -2px;
+  top: 12px;
+  width: 50px;
+  height: 26px;
+  transition: all 0.2s ease-out;
+}
+
+.button--forward::before {
+  content: '';
+  background-image: url("../img/small-arrow-right.svg");
+  background-repeat: no-repeat;
+  position: absolute;
+  left: -2px;
+  top: 12px;
+  width: 50px;
+  height: 26px;
+  transition: all 0.2s ease-out;
+}
+
+.button--back:hover::before,
+.button--back:focus::before {
+  opacity: 0.6;
+}
+
+.button--forward:hover::before,
+.button--forward:focus::before {
+  opacity: 0.6;
+}
+
+.button--back:active::before {
+  opacity: 0.3;
+}
+
+.button--forward:active::before {
+  opacity: 0.3;
 }
